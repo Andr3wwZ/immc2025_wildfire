@@ -1,9 +1,15 @@
+"""
+Redraw the coverage / marginal-gain charts from a saved CSV without re-running the model.
+"""
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
+import os
+import glob
 
-
-file_path = "fire_strategy_detailed_20260406_1428.csv"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+file_path = sorted(glob.glob(os.path.join(BASE_DIR, "results", "fire_strategy_detailed_*.csv")))[-1]
 df = pd.read_csv(file_path)
 
 
