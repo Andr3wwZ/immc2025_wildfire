@@ -1,0 +1,51 @@
+Strategy,Stations,Total_Protection_%,Marginal_Gain_%,Burn_Area_km2
+A: Baseline (No Burns),1,31.1144,31.1144,0
+A: Baseline (No Burns),2,56.4488,25.3344,0
+A: Baseline (No Burns),3,80.0692,23.6204,0
+A: Baseline (No Burns),4,86.5939,6.5246,0
+A: Baseline (No Burns),5,90.893,4.2991,0
+A: Baseline (No Burns),6,94.6919,3.7989,0
+A: Baseline (No Burns),7,97.8117,3.1197,0
+A: Baseline (No Burns),8,99.8328,2.0211,0
+A: Baseline (No Burns),9,99.9303,0.0975,0
+A: Baseline (No Burns),10,99.9709,0.0406,0
+B: 30km Firebreaks,1,32.0523,26.7289,1300
+B: 30km Firebreaks,2,56.4567,24.4044,1300
+B: 30km Firebreaks,3,80.1328,23.6761,1300
+B: 30km Firebreaks,4,88.5193,8.3865,1300
+B: 30km Firebreaks,5,92.4109,3.8916,1300
+B: 30km Firebreaks,6,96.1535,3.7426,1300
+B: 30km Firebreaks,7,98.2533,2.0997,1300
+B: 30km Firebreaks,8,99.8408,1.5875,1300
+B: 30km Firebreaks,9,99.9383,0.0975,1300
+B: 30km Firebreaks,10,99.9789,0.0406,1300
+C: 15km Road Firebreaks,1,32.6241,21.8067,2592
+C: 15km Road Firebreaks,2,57.4184,24.7942,2592
+C: 15km Road Firebreaks,3,81.3627,23.9444,2592
+C: 15km Road Firebreaks,4,88.9939,7.6312,2592
+C: 15km Road Firebreaks,5,92.8464,3.8525,2592
+C: 15km Road Firebreaks,6,96.3808,3.5344,2592
+C: 15km Road Firebreaks,7,98.3441,1.9633,2592
+C: 15km Road Firebreaks,8,99.8053,1.4613,2592
+C: 15km Road Firebreaks,9,99.8979,0.0925,2592
+C: 15km Road Firebreaks,10,99.9594,0.0615,2592
+D: Top 5% Mosaic Target,1,32.0758,27.7561,488
+D: Top 5% Mosaic Target,2,56.0756,23.9998,488
+D: Top 5% Mosaic Target,3,76.3352,20.2596,488
+D: Top 5% Mosaic Target,4,91.0785,14.7433,488
+D: Top 5% Mosaic Target,5,94.6678,3.5893,488
+D: Top 5% Mosaic Target,6,96.9179,2.2502,488
+D: Top 5% Mosaic Target,7,98.5534,1.6355,488
+D: Top 5% Mosaic Target,8,99.6348,1.0813,488
+D: Top 5% Mosaic Target,9,99.8533,0.2185,488
+D: Top 5% Mosaic Target,10,99.9443,0.091,488
+E: Top 10% Mosaic Target,1,33.3744,25.475,1011
+E: Top 10% Mosaic Target,2,57.4226,24.0482,1011
+E: Top 10% Mosaic Target,3,77.3602,19.9376,1011
+E: Top 10% Mosaic Target,4,91.2878,13.9276,1011
+E: Top 10% Mosaic Target,5,94.8529,3.5651,1011
+E: Top 10% Mosaic Target,6,97.1488,2.2959,1011
+E: Top 10% Mosaic Target,7,98.6927,1.5439,1011
+E: Top 10% Mosaic Target,8,99.6541,0.9613,1011
+E: Top 10% Mosaic Target,9,99.8726,0.2185,1011
+E: Top 10% Mosaic Target,10,99.9282,0.0556,1011
