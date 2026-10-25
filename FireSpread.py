@@ -4,10 +4,13 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from PIL import Image
 import scipy.ndimage
+import os
 from scipy.ndimage import convolve, gaussian_filter, binary_closing, binary_dilation
 from datetime import datetime
 
-map_path = r"D:\Stuyvesant\25-26\IMMC 2025\VegMap_NoBG_cp.png"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+map_path = os.path.join(BASE_DIR, "VegMap_NoBG_cp.png")
+RESULTS_DIR = os.path.join(BASE_DIR, "results")
 GLOBAL_MIN = 0.0
 GLOBAL_MAX = 1.0
 
@@ -493,8 +496,8 @@ for strat_name, data in optimal_data_per_strat.items():
 
 # file saving
 timestamp = datetime.now().strftime("%Y%m%d_%H%M")
-detail_filename = f"fire_strategy_detailed_{timestamp}.csv"
-summary_filename = f"fire_strategy_summary_{timestamp}.csv"
+detail_filename = os.path.join(RESULTS_DIR, f"fire_strategy_detailed_{timestamp}.csv")
+summary_filename = os.path.join(RESULTS_DIR, f"fire_strategy_summary_{timestamp}.csv")
 
 df_details = pd.DataFrame(all_scenario_results)
 df_details.to_csv(detail_filename, index=False)
